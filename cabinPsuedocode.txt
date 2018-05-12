@@ -1,0 +1,71 @@
+/*
+Ethan Pulido 
+CS/IS 130 
+
+
+class cabin
+-----------
+private
+
+string model
+int numBeds
+double lengthCabin
+bool plumbing
+------------
+public 
+
+cabin() cabin;
+cabin(string, double, int, bool) cabin;
+
+setModel() void;
+getModel() String;
+
+setNumBeds() void;
+getNumBeds() int;
+
+setLengthCabin() void;
+getLengthCabin() double;
+
+setPlumbing() void;
+getPlumbing() bool;
+
+
+
+
+main (cabinTest)
+----
+
+creat int userChoice;
+set user choice = 0;
+
+create object cab cabin;
+creat object cabi cabin;
+
+display "welcome to the cabin chooser program"
+display "1. to use the program"
+display "2. to quit the program"
+get input as userChoice
+
+case 1:
+	
+	Display "Please enter the cabin length"
+	cab(setLengthCabin);
+	
+	Display "Please choose the model cabin you would like"
+	cab(setModel);
+	
+	Display "Would you like indoor plumbing?"
+	cab(setPlumbing);
+	
+	Display "You want to stay at " cab.getModel();
+	Display "The dimensions are " cab.getLengthCabin()  "long";
+	Display "And you wish to " getPlumbing();
+
+	case 2:
+		System.exit(0);
+	
+	default:
+		Display "Incorrect integer choice" 
+	
+
+*/
